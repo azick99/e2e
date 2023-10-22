@@ -10,25 +10,25 @@ const FooterNav = () => {
         <div className="flex sm:flex-row flex-col w-full justify-between items-center px-10">
           <div className="text-3xl font-bold text-white">e2e</div>
           <a
-            href="about"
+            href="#about"
             className="px-5 py-2 font-bold hover:text-white transition"
           >
             About
           </a>
           <a
-            href="services"
+            href="#services"
             className="px-5 py-2 font-bold hover:text-white transition"
           >
             Services
           </a>
           <a
-            href="whyus"
+            href="#whyus"
             className="px-5 py-2 font-bold hover:text-white transition"
           >
             Why Us
           </a>
           <a
-            href="contact"
+            href="#contact"
             className="px-5 py-2 font-bold hover:text-white transition"
           >
             Contact
