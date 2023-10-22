@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font styles */
+
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 400;
+  src: url('./assets/fonts/satoshi/satoshi-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 500;
+  src: url('./assets/fonts/satoshi/satoshi-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 700;
+  src: url('./assets/fonts/satoshi/satoshi-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url('./assets/fonts/inter/inter-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('./assets/fonts/inter/inter-medium-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url('./assets/fonts/inter/inter-bold-webfont.woff2') format('woff2');
+}
+
+
+/* Basic classes */
+
+html {
+  @apply font-inter text-base leading-[1.2]
+}
+
+
+
+/* Headings */
+
+h1 {
+  @apply text-3xl sm:text-4xl lg:text-5xl leading-[1.15] font-satoshi font-medium text-primary
+}
+
+.heading-size-2 {
+  @apply text-[1.75rem] sm:text-[2.25rem] lg:text-[2.625rem] font-medium font-satoshi text-primary
+}
+
+.heading-size-3 {
+  @apply sm:text-[1.75rem] text-[1.375rem] leading-[1.2] antialiased font-medium font-satoshi text-primary
+}
+
+
+p {
+  @apply md:text-lg text-base text-secondary leading-[1.5]
+}
+
+/* Buttons */
+
+.get-start-white {
+  @apply px-4 py-[0.625rem] bg-[#ECEEF3] hover:text-white hover:bg-blue transition-all
+}
+
+.btn-contact {
+  @apply px-4 py-[0.625rem] hover:text-white hover:bg-primary transition-all
+}
+
+.get-start {
+  @apply p-4 bg-whate-bg hover:text-white hover:bg-blue transition-all
+}
+
+
+/*Animation*/
+.scale-up-tr {
+  -webkit-animation: scale-up-tr 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-tr 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale-up-tr {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+}
+
+@keyframes scale-up-tr {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+}
+
+/* grdaients*/
+
+.black-gradient {
+  background: rgb(107, 107, 107);
+  background: -moz-linear-gradient(90deg, rgba(107, 107, 107, 1) 0%, rgba(21, 21, 21, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(107, 107, 107, 1) 0%, rgba(21, 21, 21, 1) 100%);
+  background: linear-gradient(90deg, rgba(107, 107, 107, 1) 0%, rgba(21, 21, 21, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6b6b6b", endColorstr="#151515", GradientType=1);
+}
+
+.blue-gradient {
+  background: rgb(3, 68, 220);
+  background: -moz-linear-gradient(86deg, rgba(3, 68, 220, 0.6103233529740021) 0%, rgba(7, 45, 179, 1) 100%);
+  background: -webkit-linear-gradient(86deg, rgba(3, 68, 220, 0.6103233529740021) 0%, rgba(7, 45, 179, 1) 100%);
+  background: linear-gradient(86deg, rgba(3, 68, 220, 0.6103233529740021) 0%, rgba(7, 45, 179, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0344dc", endColorstr="#072db3", GradientType=1);
+}
