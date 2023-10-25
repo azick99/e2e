@@ -1,17 +1,17 @@
-import dataBase from '../assets/data_base.jpg'
+import whiteTech from '../assets/white-tech.jpg'
 import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <motion.section
       id="about"
-      className={`pb-[100px] pt-[80px] flex justify-center relative bg-[url(bg-pink.svg)] ease-out`}
+      className={`pb-[100px] pt-[80px] flex justify-center relative ease-out scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height `}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
       <img
-        src={dataBase}
-        alt="data-base"
-        className="absolute w-full sm:h-[98%] h-full object-cover top-0 opacity-[0.15]"
+        src={whiteTech}
+        alt="white tech"
+        className="absolute w-full sm:h-[98%] h-full object-cover top-0 -z-10"
       />
       <motion.article
         className="flex flex-col gap-5 md:w-[60vw] w-[90vw] text-center items-center ease-out"

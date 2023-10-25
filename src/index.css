@@ -43,8 +43,15 @@
 
 /* Basic classes */
 
+@layer {
+  .section-min-height {
+    min-height: calc(100vh - 68px)
+  }
+}
+
+
 html {
-  @apply font-inter text-base leading-[1.2]
+  @apply font-inter text-base leading-[1.2] scroll-smooth
 }
 
 
@@ -138,4 +145,17 @@ p {
   background: -webkit-linear-gradient(86deg, rgba(3, 68, 220, 0.6103233529740021) 0%, rgba(7, 45, 179, 1) 100%);
   background: linear-gradient(86deg, rgba(3, 68, 220, 0.6103233529740021) 0%, rgba(7, 45, 179, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0344dc", endColorstr="#072db3", GradientType=1);
+}
+
+
+@media (min-aspect-ratio: 3/2) {
+  .widescreen\:section-min-height {
+    min-height: calc(100vh - 68px)
+  }
+}
+
+@media (max-aspect-ratio: 13/20) {
+  .tallscreen\:section-min-height {
+    min-height: calc(100vh - 68px)
+  }
 }

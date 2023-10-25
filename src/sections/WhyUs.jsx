@@ -13,7 +13,7 @@ const WhyUs = () => {
         whileInView="show"
         viewport={{ once: true }}
         id="whyus"
-        className="flex flex-col sm:gap-11 gap-6"
+        className="flex flex-col sm:gap-11 gap-6 widescreen:section-min-height tallscreen:section-min-height scroll-mt-28"
       >
         <motion.span
           variants={textVariant()}

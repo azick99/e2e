@@ -29,6 +29,10 @@ export default {
         '60px': '3.75rem',
         '52px': '3.25rem',
       },
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+      },
     },
   },
   plugins: [],

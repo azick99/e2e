@@ -13,7 +13,7 @@ const Services = () => {
         whileInView="show"
         viewport={{ once: true }}
         id="services"
-        className="flex flex-col gap-10 sm:gap-60px px-6 py-8 md:p-10 lg:p-52px md:py-20 lg:py-[6.25rem] bg-white border border-solid border-[#E3EBF2] "
+        className="flex flex-col gap-10 sm:gap-60px px-6 py-8 md:p-10 lg:p-52px md:py-20 lg:py-[6.25rem] bg-white border border-solid border-[#E3EBF2] widescreen:section-min-height tallscreen:section-min-height scroll-mt-20"
       >
         <motion.article
           variants={textVariant(1)}

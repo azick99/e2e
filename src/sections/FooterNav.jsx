@@ -1,4 +1,4 @@
-import { BsLinkedin, BsFacebook } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 const date = new Date().getFullYear()
 const FooterNav = () => {
   return (
@@ -36,20 +36,12 @@ const FooterNav = () => {
         </div>
         <div className="flex items-center gap-1">
           <a
-            href="#"
+            href="https://www.linkedin.com/company/rh247-pl"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 hover:text-white transition"
           >
             <BsLinkedin />
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2 hover:text-white transition"
-          >
-            <BsFacebook />
           </a>
         </div>
       </nav>

@@ -23,7 +23,7 @@ const Navigation = () => {
         variants={fadeIn(0.3, 0.5)}
         className="container mx-auto flex justify-between items-center"
       >
-        <div className="text-2xl font-bold mr-6">e2e</div>
+        <img src="/logo.jpg" alt="logo" className='w-[42px] h-[42px] rounded-[10px] mr-5' />
         <button type="button" onClick={toggleMenu} className="sm:hidden">
           {isOpen ? (
             <FaTimes className="h-5 w-5 text-secondary" />
