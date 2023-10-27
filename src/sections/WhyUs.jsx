@@ -2,7 +2,6 @@ import SectionWrapper from '../components/SectionWrapper'
 import { motion } from 'framer-motion'
 import { cards } from '../data/cards'
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
-import { BsCalendarCheck } from 'react-icons/bs'
 
 const WhyUs = () => {
   return (
@@ -45,18 +44,6 @@ const WhyUs = () => {
                 </article>
               </motion.div>
             ))}
-          </div>
-          <div
-            className="flex flex-col items-center sm:p-14 p-5 text-center gap-3  sm:gap-5  w-full border border-solid border-[#E3EBF2] 
-          "
-          >
-            <BsCalendarCheck className="w-6 h-6 text-primary" />
-            <h3 className="heading-size-3">Book your free consultation now</h3>
-            <p>
-              e2e team is always in line call us and, we answer to all questions
-              and give more information{' '}
-            </p>
-            <a href='#contact' className=' uppercase py-[1.125rem] px-6 bg-primary text-white text-sm font-semibold leading-3 self-center'>get started</a>
           </div>
         </div>
       </motion.section>
