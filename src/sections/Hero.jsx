@@ -15,7 +15,7 @@ const Hero = () => {
         className="absolute w-full sm:h-[95%] h-full object-cover top-0 -z-10"
       />
       <motion.article
-        className="flex flex-col gap-5 md:w-[60vw] w-[90vw] text-center items-center ease-out"
+        className="flex flex-col gap-5 md:w-[60vw] w-[90vw] text-center items-center ease-out place-content-center"
         initial={{ scale: 1.3 }}
         animate={{ scale: 1 }}
       >
@@ -23,8 +23,7 @@ const Hero = () => {
           WELCOME TO E2E
         </span>
         <h1>
-          Remote hands services Network infrastructure support Warsaw based EU
-          coverage
+          Remote hands services<br/> Network infrastructure support <br/> Warsaw based
         </h1>
         <p className="md:w-[90%] w-[100%] ">
           e2e is data center services firm. We manage clients&apos; critical

@@ -16,7 +16,7 @@ const WhyUs = () => {
       >
         <motion.span
           variants={textVariant()}
-          className="heading-size-2 sm:text-start text-center"
+          className="uppercase text-blue text-sm leading-[1.10] font-semibold "
         >
           Why Us
         </motion.span>

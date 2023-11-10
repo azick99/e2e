@@ -66,13 +66,13 @@ const Navigation = () => {
                   </Button>
                 </a>
               </li>
-              <li className="text-center sm:mb-0 mb-4">
+              {/* <li className="text-center sm:mb-0 mb-4">
                 <a href="#services" className="p-2 sm:w-full">
                   <Button type="button" buttonType="getStartWhite">
                     Get Started
                   </Button>
                 </a>
-              </li>
+              </li> */}
             </div>
           </ul>
         </div>

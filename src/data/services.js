@@ -1,28 +1,29 @@
 export const services = [
   {
     id: 1,
-    title: 'Pre-Installation Planning',
+    title: 'Network Infrastructure',
     description:
-      'Identify equipment requirements and assess infrastructure readiness.',
+      'Cabinet installation, Rack and stack, Structured cabling and patching, Migration of Data Center Network Infrastructure',
   },
   {
     id: 2,
-    title: 'Rack and Stack',
-    description: 'Expertly install and optimize equipment for efficiency.',
+    title: 'Network maintenance',
+    description:
+      'SLA/best effort technical support level, Remote Hands & Eyes Support',
   },
   {
     id: 3,
-    title: 'Equipment Procurement',
-    description: 'Handle hardware and accessory acquisition.',
+    title: 'Logistics',
+    description: 'End to end-RMA management, global shipping, customs',
   },
-  {
-    id: 4,
-    title: 'Power Connection',
-    description: 'Ensure equipment powering and power compliance.',
-  },
-  {
-    id: 5,
-    title: 'Network Connectivity',
-    description: 'Configure equipment networking and IP settings.',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Power Connection',
+  //   description: 'Ensure equipment powering and power compliance.',
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Network Connectivity',
+  //   description: 'Configure equipment networking and IP settings.',
+  // },
 ]

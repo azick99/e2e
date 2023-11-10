@@ -24,14 +24,14 @@ const Services = () => {
               services
             </span>
             <h2 className="heading-size-2">
-              e2e engineers offer all services which Data Centers need to.
+            We are a dedicated team of professionals with deep expertise in data
+            center infrastructure installations
             </h2>
           </div>
-          <p className="self-end">
+          {/* <p className="self-end">
             We are a dedicated team of professionals with deep expertise in data
-            center infrastructure installation. Our main purpose is
-            clients&apos; satisfaction.{' '}
-          </p>
+            center infrastructure installation.
+          </p> */}
         </motion.article>
         {/* Service checking */}
         <div className="flex flex-col gap-8 !last:border-b-white">
